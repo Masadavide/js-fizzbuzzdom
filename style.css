@@ -27,6 +27,7 @@ h2{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
@@ -43,7 +44,8 @@ h2{
 }
 
 .fizzbuzz_color{
-    background-color: green;
+    background-color: lime;
+    border-radius: 50%;
 }
 
 .fizz_color{
@@ -51,5 +53,5 @@ h2{
 }
 
 .buzz_color{
-    background-color: turquoise;
+    background-color: hotpink;
 }
